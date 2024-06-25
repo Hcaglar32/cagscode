@@ -91,7 +91,7 @@ const About = () => {
         <Image
           className="rounded-md w-full"
           alt=""
-          src="/about-image.jpeg"
+          src="./about-image.jpeg"
           width={500}
           height={500}
         />
