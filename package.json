@@ -1,5 +1,5 @@
 {
-  "homepage":"https://hcaglar32.github.io/hasan-emir-caglar",
+  "homepage": "https://hcaglar32.github.io/hasan-emir-caglar",
   "name": "myportfolionextjs",
   "version": "0.1.0",
   "private": true,
@@ -34,6 +34,7 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
+    "gh-pages": "^6.1.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
