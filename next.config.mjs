@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    // Static export enabled
+    output: "export",
+    // Enable React's strict mode
+    reactStrictMode: true,
+  };
+  
+  module.exports = nextConfig;
+  
