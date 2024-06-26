@@ -5,8 +5,12 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 const Hero = () => {
+  const heroImage = `${publicRuntimeConfig.basePath}/ben.jpg`;
+
   return (
     <section>
       <div className="flex flex-col-reverse gap-4 lg:flex-row  sm:flex-col-reverse md:flex-col-reverse justify-center items-center">
@@ -98,7 +102,7 @@ const Hero = () => {
           >
             <Image
               alt="Junior Frontend Developer"
-              src="./ben.jpg"
+              src={heroImage}
               width={370}
               height={370}
               className="absolute object-cover transform 
