@@ -98,7 +98,7 @@ const Hero = () => {
           >
             <Image
               alt="Junior Frontend Developer"
-              src="./ben.jpg"
+              src="./ben.JPEG"
               width={370}
               height={370}
               className="absolute object-cover transform 
