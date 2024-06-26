@@ -1,8 +1,9 @@
-/** @type {import('next').NextConfig} */
+const isGithubPages = process.env.NODE_ENV === 'production' && process.env.GITHUB_PAGES;
+
 const nextConfig = {
   output: "export",
   publicRuntimeConfig: {
-    basePath: process.env.BASE_PATH || "",
+    basePath: isGithubPages ? '/hasan-emir-caglar' : '',
   },
 };
 

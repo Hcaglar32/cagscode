@@ -5,12 +5,17 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
+import getConfig from "next/config";
+
+const { publicRuntimeConfig } = getConfig();
 
 const Hero = () => {
+  const imagePath = `${publicRuntimeConfig.basePath}/ben.JPEG`;
+  const cvPath = `${publicRuntimeConfig.basePath}/hasan-emir-caglar-cv.pdf`;
+
   return (
     <section>
       <div className="flex flex-col-reverse gap-4 lg:flex-row  sm:flex-col-reverse md:flex-col-reverse justify-center items-center">
-
         {/*col-span 8 */}
 
         <motion.div
@@ -63,7 +68,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="./hasan-emir-caglar-cv.pdf"
+              href={cvPath}
               download="hasan-emir-caglar-cv.pdf"
               className="px-1 inline-block 
                   py-1 w-full md:w-fit rounded-full
@@ -98,7 +103,7 @@ const Hero = () => {
           >
             <Image
               alt="Junior Frontend Developer"
-              src="./ben.JPEG"
+              src={imagePath}
               width={370}
               height={370}
               className="absolute object-cover transform 
