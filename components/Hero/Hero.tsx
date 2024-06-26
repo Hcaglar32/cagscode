@@ -5,17 +5,19 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import getConfig from "next/config";
-
-const { publicRuntimeConfig } = getConfig();
+import getConfig from 'next/config';
 
 const Hero = () => {
-  const imagePath = `${publicRuntimeConfig.basePath}/ben.JPEG`;
-  const cvPath = `${publicRuntimeConfig.basePath}/hasan-emir-caglar-cv.pdf`;
+  const { publicRuntimeConfig } = getConfig() || {};
+  const basePath = publicRuntimeConfig?.basePath || '';
+
+  const imagePath = `${basePath}/ben.JPEG`;
+  const cvPath = `${basePath}/hasan-emir-caglar-cv.pdf`;
 
   return (
     <section>
       <div className="flex flex-col-reverse gap-4 lg:flex-row  sm:flex-col-reverse md:flex-col-reverse justify-center items-center">
+
         {/*col-span 8 */}
 
         <motion.div
