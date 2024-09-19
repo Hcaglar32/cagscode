@@ -25,6 +25,33 @@ const projectsData = [
     gitUrl: "https://github.com/Hcaglar32/WeatherApp",
     previewUrl: "/",
   },
+  {
+    id: 3,
+    title: "Akcag Restaurant",
+    description: "Kendime şık bir restoran açsam, web sitesi nasıl olur diye yola çıktığım bu proje, beklediğimden şık ve estetik bir tasarıma sahip oldu. Bu projede Next.js ve TypeScript kullandım.",
+    image: "./akcag.jpg",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/Hcaglar32/restaurant-project",
+    previewUrl: "/",
+  },
+  {
+    id: 4,
+    title: "Altın Çember Kuramı",
+    description: "Freelance olarak aldığım işte istenen slider şeklindeki eğlenceli web sitesini yaptım. Kullandığım teknolojiler:Html ,css , javascript",
+    image: "./altin-cember.jpg",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/Hcaglar32/altin-cember-kuramı",
+    previewUrl: "/",
+  },
+  {
+    id: 5,
+    title: "Ağaoğlu Omak İnşaat",
+    description: "Freelance olarak çalıştığım işte ağaoğlu omak firmasına web sitesi yaptım. Siteyi yaparken html,css , bootstrap ve javascript teknolojilerini kullandım.",
+    image: "./agaoglu-omak.jpg",
+    tag: ["All", "Frontend"],
+    gitUrl: "",
+    previewUrl: "https://agaogluomak.tahacankurt.com/",
+  },
 ];
 
 const Project = () => {
