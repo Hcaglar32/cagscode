@@ -21,7 +21,7 @@ const ProjectCard = ({
     <div>
       <div
         className="h-56 md:h-72 rounded-lg relative group"
-        style={{ background: `url(${image})`, backgroundSize: "cover" , backgroundRepeat:"no-repeat", backgroundPosition:"Left Center"}}
+        style={{ background: `url(${image})`, backgroundSize: "cover" , backgroundRepeat:"no-repeat", backgroundPosition:"Center Center"}}
       >
         <div
           className="items-center justify-center absolute top-0 left-0 w-full h-full
