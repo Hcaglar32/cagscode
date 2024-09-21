@@ -63,8 +63,8 @@ const Hero = () => {
             </a>
 
             <a
-              href="./hasan-emir-caglar-cv.pdf"
-              download="hasan-emir-caglar-cv.pdf"
+              href="./hasan-emir-caglar-cv.zip"
+              download="hasan-emir-caglar-cv.zip"
               className="px-1 inline-block 
                   py-1 w-full md:w-fit rounded-full
                   bg-gradient-to-br
