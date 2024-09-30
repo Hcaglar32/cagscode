@@ -12,19 +12,19 @@ const AnimatedNumbers = dynamic(() => import("react-animated-numbers"), {
 const Listachieve = [
   {
     metric: "Proje",
-    value: "10",
+    value: "15",
     postfix: "+",
     icon: FiActivity,
   },
  
   {
     metric: "Bilinen dil ve framework",
-    value: "9",
+    value: "15",
     icon: FiAward,
   },
   {
     metric: "Yıllık Tecrübe",
-    value: "1",
+    value: "2",
     icon: FiClock,
   },
 ];
