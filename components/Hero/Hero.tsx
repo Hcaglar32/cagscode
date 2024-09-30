@@ -48,10 +48,9 @@ const Hero = () => {
             />
           </h1>
           <p className="text-white opacity-75 text-base mb-6 lg:text-lg">
-            Merhaba, ben Hasan Emir Çağlar. 1 yıllık Jr. Frontend Developer
-            deneyimimle kurumsal web siteleri ve uygulamalar geliştirdim. UI/UX
-            tasarımlarını koda dönüştürdüm. Hedefim, kendimi geliştirerek
-            sektörde ilerlemek ve yeni iş fırsatları bulmak
+            Merhaba, ben Hasan Emir Çağlar. 2 yıllık Frontend Developer deneyimimle kurumsal web siteleri ve uygulamalar geliştirdim.
+            UI/UX tasarımlarını koda dönüştürdüm. Laravel, CodeIgniter ve Filament kullanarak admin panellerine entegrasyon, düzenleme ve migration gibi backend görevleriyle de ilgilendim ve bu alanlarda tecrübem bulunuyor. 
+            Ayrıca, npm paketlerini, Git’i aktif şekilde kullanıyor ve API’ler ile verileri yönetip entegre ediyorum. Hedefim, kendimi geliştirerek sektörde ilerlemek ve yeni iş fırsatları bulmak.
           </p>
 
           <div>
