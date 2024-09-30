@@ -12,8 +12,9 @@ import {
   FaGithub,
   FaLaravel,
   FaDatabase, // Filament için alternatif
+  FaNpm, // npm ikonu
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs, SiJavascript, SiCodeigniter } from "react-icons/si"; // CodeIgniter için
+import { SiTailwindcss, SiNextdotjs, SiJavascript, SiCodeigniter, SiTypescript, SiAlpinedotjs } from "react-icons/si"; // TypeScript ve Alpine.js ikonları
 
 const TAB_DATA = [
   {
@@ -57,6 +58,15 @@ const TAB_DATA = [
         <li className="text-5xl text-blue-500">
           <FaDatabase /> {/* Filament için alternatif */}
         </li>
+        <li className="text-5xl text-blue-600">
+          <SiTypescript /> {/* TypeScript */}
+        </li>
+        <li className="text-5xl text-blue-400">
+          <SiAlpinedotjs /> {/* Alpine.js */}
+        </li>
+        <li className="text-5xl text-red-600">
+          <FaNpm /> {/* npm */}
+        </li>
       </ul>
     ),
   },
@@ -80,6 +90,7 @@ const TAB_DATA = [
     ),
   },
 ];
+
 
 const About = () => {
   const [tab, setTab] = useState("skills");
