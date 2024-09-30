@@ -10,9 +10,10 @@ import {
   FaBootstrap,
   FaReact,
   FaGithub,
+  FaLaravel,
+  FaDatabase, // Filament için alternatif
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs, SiJavascript } from "react-icons/si";
-import { FaGit } from "react-icons/fa6";
+import { SiTailwindcss, SiNextdotjs, SiJavascript, SiCodeigniter } from "react-icons/si"; // CodeIgniter için
 
 const TAB_DATA = [
   {
@@ -47,6 +48,15 @@ const TAB_DATA = [
         <li className="text-5xl text-purple-800">
           <FaGithub />
         </li>
+        <li className="text-5xl text-red-700">
+          <FaLaravel /> {/* Laravel */}
+        </li>
+        <li className="text-5xl text-red-600">
+          <SiCodeigniter /> {/* CodeIgniter */}
+        </li>
+        <li className="text-5xl text-blue-500">
+          <FaDatabase /> {/* Filament için alternatif */}
+        </li>
       </ul>
     ),
   },
@@ -64,8 +74,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Sıfırdan ileri düzey web geliştirme kursu(udemy).</li>
-        <li>Patika.dev Web geliştirme Kursu</li>
+        <li>Sıfırdan ileri düzey web geliştirme kursu (Udemy)</li>
+        <li>Patika.dev Web Geliştirme Kursu</li>
       </ul>
     ),
   },
@@ -85,8 +95,7 @@ const About = () => {
   return (
     <div className="text-white mb-10" id="about">
       <div
-        className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center
-         py-8 px-4"
+        className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-8 px-4"
       >
         <Image
           className="rounded-md w-full"
@@ -98,9 +107,9 @@ const About = () => {
 
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <p className="text-base lg:text-lg">
-            Merhaba, Ben Hasan Emir Çağlar. Jr. Frontend Developer olarak 1 senelik
-            iş tecrübesine sahibim. Freelancer olarak çalıştığım bir firma ile
-            geçen 1 yıl içerisinde kurumsal web siteleri, web uygulamaları ve
+            Merhaba, Ben Hasan Emir Çağlar. Jr. Frontend Developer olarak 1
+            senelik iş tecrübesine sahibim. Freelancer olarak çalıştığım bir firma
+            ile geçen 1 yıl içerisinde kurumsal web siteleri, web uygulamaları ve
             özelleştirilmiş web siteleri geliştirdim. Ayrıca UI/UX tasarımcıları
             tarafından hazırlanan Photoshop, Figma gibi tasarım dosyalarını koda
             dönüştürdüm. Amacım, sektörde kendimi geliştirerek daha ileri
