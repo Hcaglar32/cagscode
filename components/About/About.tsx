@@ -107,13 +107,10 @@ const About = () => {
 
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <p className="text-base lg:text-lg">
-            Merhaba, Ben Hasan Emir Çağlar. Jr. Frontend Developer olarak 1
-            senelik iş tecrübesine sahibim. Freelancer olarak çalıştığım bir firma
-            ile geçen 1 yıl içerisinde kurumsal web siteleri, web uygulamaları ve
-            özelleştirilmiş web siteleri geliştirdim. Ayrıca UI/UX tasarımcıları
-            tarafından hazırlanan Photoshop, Figma gibi tasarım dosyalarını koda
-            dönüştürdüm. Amacım, sektörde kendimi geliştirerek daha ileri
-            seviyelere ulaşmak ve yeni iş fırsatları keşfetmek.
+            Merhaba, ben Hasan Emir Çağlar. 2 yıllık Frontend Developer deneyimimle kurumsal web siteleri, 
+            web uygulamaları ve özelleştirilmiş projeler geliştirdim. UI/UX tasarımcıları tarafından hazırlanan Photoshop ve Figma dosyalarını başarıyla koda dönüştürdüm. 
+            Ayrıca, Laravel, CodeIgniter ve Filament kullanarak admin panelleri üzerinde entegrasyon, düzenleme ve migration işlemleri gerçekleştirdim. npm paketlerini ve Git’i aktif olarak kullanıyor, API’ler ile verileri yönetiyorum. 
+            Amacım, kendimi sürekli geliştirerek sektörde daha ileri seviyelere ulaşmak ve yeni iş fırsatları keşfetmek.
           </p>
 
           <div className="flex flex-row justify-start mt-8">
