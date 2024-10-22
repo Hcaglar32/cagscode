@@ -40,8 +40,8 @@ const projectsData = [
     description: "Freelance olarak aldığım işte istenen slider şeklindeki eğlenceli web sitesini yaptım. Kullandığım teknolojiler:Html ,css , javascript",
     image: "./altin-cember.jpg",
     tag: ["All", "Frontend"],
-    gitUrl: "https://github.com/Hcaglar32/altin-cember-kuramı",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Hcaglar32/altin-cember-kurami",
+    previewUrl: "https://hcaglar32.github.io/altin-cember-kurami/",
   },
   {
     id: 5,
