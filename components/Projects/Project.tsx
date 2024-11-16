@@ -52,6 +52,24 @@ const projectsData = [
     gitUrl: "",
     previewUrl: "https://agaogluomak.tahacankurt.com/",
   },
+  {
+    id: 6,
+    title: "Alpset Otomotiv",
+    description: "Freelance olarak çalıştığım işte Alpset Otomotiv firmasına web sitesi yaptım. Figma tasarımı olan projeyi pixel-perfect kod mantığına uygun kodladım. Kullanılan Teknolojiler:Html , tailwind , javascript , alpine.js , laravel , filament",
+    image: "./alpset.jpg",
+    tag: ["All", "Frontend"],
+    gitUrl: "",
+    previewUrl: "https://alpset.piyetra.com/",
+  },
+  {
+    id: 7,
+    title: "Serdar Otomotiv",
+    description: "Freelance olarak çalıştığım işte Serdar Otomotiv firmasına web sitesi yaptım. Figma tasarımı olan projeyi pixel-perfect kod mantığına uygun kodladım. Kullanılan Teknolojiler:Html , tailwind , javascript , alpine.js , laravel , filament",
+    image: "./serdar-oto.jpg",
+    tag: ["All", "Frontend"],
+    gitUrl: "",
+    previewUrl: "https://serdarotomotiv.piyetra.com/",
+  },
 ];
 
 const Project = () => {
@@ -64,9 +82,11 @@ const Project = () => {
     setTag(newTag);
   };
 
-  const filtredProject = projectsData.filter((project) =>
-    project.tag.includes(tag)
-  );
+  // Son eklenen projeleri önce göstermek için ters çevir
+  const filtredProject = projectsData
+    .slice() // Orijinal diziyi değiştirmemek için kopyasını al
+    .reverse()
+    .filter((project) => project.tag.includes(tag));
 
   const cardvariants = {
     initial: { y: 50, opacity: 0 },
@@ -91,9 +111,6 @@ const Project = () => {
           onClick={handleTagChange}
           isSelected={tag === "All"}
         />
-
-    
-
         <ProjectTag
           name="Frontend"
           onClick={handleTagChange}
@@ -123,5 +140,7 @@ const Project = () => {
     </section>
   );
 };
+
+
 
 export default Project;

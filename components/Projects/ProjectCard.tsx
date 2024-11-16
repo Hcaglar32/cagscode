@@ -20,8 +20,8 @@ const ProjectCard = ({
   return (
     <div>
       <div
-        className="h-56 md:h-72 rounded-lg relative group"
-        style={{ background: `url(${image})`, backgroundSize: "cover" , backgroundRepeat:"no-repeat", backgroundPosition:"Left Center"}}
+        className="h-56 md:h-64 rounded-lg relative group"
+        style={{ background: `url(${image})`, backgroundSize: "cover" , backgroundRepeat:"no-repeat", backgroundPosition:"Center"}}
       >
         <div
           className="items-center justify-center absolute top-0 left-0 w-full h-full
@@ -43,6 +43,7 @@ const ProjectCard = ({
           <Link
             href={previewUrl}
             className="border-2 relative rounded-full h-14 w-14 border-white/50"
+            target="_blank"
           >
             <EyeIcon
               className="h-10 w-10 text-white/50 absolute cursor-pointer
@@ -51,8 +52,8 @@ const ProjectCard = ({
           </Link>
         </div>
       </div>
-      <div className="text-white rounded-2xl mt-3 px-4 py-2 bg-mycolor-300">
-        <h5 className="text-xl font-semibold mb-2">{title}</h5>
+      <div className="text-white rounded-2xl h-fit md:h-56 xl:h-40 overflow-scroll mt-3 px-4 py-2 bg-mycolor-300">
+      <h5 className="text-xl font-semibold mb-2">{title}</h5>
         <p className="font-light text-sm">{description}</p>
       </div>
     </div>

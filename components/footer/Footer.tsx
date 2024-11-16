@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container  flex-center p-12 flex flex-col sm:flex-row gap-10 w-full sm:gap-5 text-2xl text-white text-center items-center justify-between">
       <span className="font-semibold font-pacifico ml-4">Hasan Emir Caglar</span>
         <div className="flex  flex-wrap  items-center gap-4">
-          <a href="https://www.instagram.com/caglaremirr" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/cagscode" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
           </a>
           <a href="https://www.linkedin.com/in/hasan-emir-caglar" target="_blank" rel="noopener noreferrer">
