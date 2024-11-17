@@ -20,7 +20,7 @@ const Footer = () => {
             < FaEnvelope/>
           </a>
         </div>
-        <span className="font-semibold text-center  text-sm ">All Rights Reserved</span>
+        <span className="font-semibold text-center  text-sm ">Bütün Hakları Saklıdır</span>
       </div>
     </footer>
   );
