@@ -12,7 +12,7 @@ const AnimatedNumbers = dynamic(() => import("react-animated-numbers"), {
 const Listachieve = [
   {
     metric: "Proje",
-    value: "15",
+    value: "20",
     postfix: "+",
     icon: FiActivity,
   },
