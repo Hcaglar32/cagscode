@@ -70,6 +70,15 @@ const projectsData = [
     gitUrl: "",
     previewUrl: "https://serdarotomotiv.piyetra.com/",
   },
+  {
+    id: 8,
+    title: "E-Ticaret Case",
+    description: "Bu proje api ile gelen ürün verilerini kullanarak geliştirdiğim bir e-ticaret sitesi. Ürün bilgilerini görüntüleyip bilgilere göre arama , filtreleme ve sıralama yapılan bu projede kulanılan teknolojiler: react.js , axios , vite.js , tailwind ve npm",
+    image: "./e-ticaret-case.jpg",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/Hcaglar32/case-project",
+    previewUrl: "https://hcaglar32.github.io/case-project/",
+  },
 ];
 
 const Project = () => {
