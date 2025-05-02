@@ -79,6 +79,15 @@ const projectsData = [
     gitUrl: "https://github.com/Hcaglar32/case-project",
     previewUrl: "https://hcaglar32.github.io/case-project/",
   },
+  {
+    id: 9,
+    title: "Alper Lojistik",
+    description: "Freelance olarak çalıştığım işte Alper lojistik firmasına web sitesi yaptım. Figma tasarımı olan projeyi pixel-perfect kod mantığına uygun kodladım. Kullanılan Teknolojiler:Html , tailwind , javascript , alpine.js , laravel , filament",
+    image: "./alper-by.jpg",
+    tag: ["All", "Frontend"],
+    gitUrl: "",
+    previewUrl: "https://alper.by/en",
+  },
 ];
 
 const Project = () => {
