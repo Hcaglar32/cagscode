@@ -88,6 +88,15 @@ const projectsData = [
     gitUrl: "",
     previewUrl: "https://alper.by/en",
   },
+    {
+    id: 10,
+    title: "Taşın Group",
+    description: "Freelance olarak çalıştığım işte Taşın group firmasına web sitesi yaptım. Figma tasarımı olan projeyi pixel-perfect kod mantığına uygun kodladım. Kullanılan Teknolojiler:Html , tailwind , javascript , alpine.js , laravel , filament",
+    image: "./tasingroup.jpg",
+    tag: ["All", "Frontend"],
+    gitUrl: "",
+    previewUrl: "https://alper.by/en",
+  },
 ];
 
 const Project = () => {
