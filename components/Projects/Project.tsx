@@ -59,7 +59,7 @@ const projectsData = [
     image: "./alpset.jpg",
     tag: ["All", "Frontend"],
     gitUrl: "",
-    previewUrl: "https://alpset.piyetra.com/",
+    previewUrl: "https://alpset.com/",
   },
   {
     id: 7,
@@ -68,7 +68,7 @@ const projectsData = [
     image: "./serdar-oto.jpg",
     tag: ["All", "Frontend"],
     gitUrl: "",
-    previewUrl: "https://serdarotomotiv.piyetra.com/",
+    previewUrl: "https://serdarotomotiv.com/",
   },
   {
     id: 8,
