@@ -95,7 +95,7 @@ const projectsData = [
     image: "./tasingroup.jpg",
     tag: ["All", "Frontend"],
     gitUrl: "",
-    previewUrl: "https://alper.by/en",
+    previewUrl: "https://tasingroup.piyetra.com/",
   },
 ];
 
